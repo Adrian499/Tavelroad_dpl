@@ -4,4 +4,7 @@
   <li>{{ place }}</li>
   {% endfor %}
 </ul>
-{% url "places:index" %}
+
+<p>
+  <a href=" {% url "places:index" %}"> <-- Back home</a>
+</p>
