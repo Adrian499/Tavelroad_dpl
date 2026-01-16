@@ -1,7 +1,8 @@
 #!/bin/bash
 
-ssh arkania "
-  cd $(dirname $0)
+ssh dplprod_adrian@100.76.80.23 "
+  set -e
+  cd /home/dplprod_adrian/Tavelroad_dpl/django
   git pull
 
   source .venv/bin/activate
