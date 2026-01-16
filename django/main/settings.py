@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'main.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'travelroad',
-	'USER': 'travelroad_user',
-	'PASSWORD':'dpl0000',
-	'HOST':'localhost',
-	'PORT':'5432',
+        'NAME': config('DB_NAME', default='travelroad'),
+        'USER': config('DB_USERNAME', default='travelroad_prod_user'),
+        'PASSWORD': config('DB_PASSWORD', default='dpl0000'),
+        'HOST': config('DB_HOST', default='localhost'),
+        'PORT': config('DB_PORT', default=5432, cast=int)
     }
 }
 
