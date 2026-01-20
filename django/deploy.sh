@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ssh dplprod_adrian@100.76.80.23 "
+ssh dplprod_adrian@10.102.25.40 "
   set -e
   cd /home/dplprod_adrian/Tavelroad_dpl/django
   git pull
