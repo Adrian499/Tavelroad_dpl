@@ -77,7 +77,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': config('DB_NAME', default='travelroad'),
-        'USER': config('DB_USERNAME', default='travelroad_prod_user'),
+        'USER': config('DB_USERNAME', default='travelroad_user'),
         'PASSWORD': config('DB_PASSWORD', default='dpl0000'),
         'HOST': config('DB_HOST', default='localhost'),
         'PORT': config('DB_PORT', default=5432, cast=int)
