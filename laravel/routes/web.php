@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 
 Route::get('/', function () {
-    return view('index'); // carga index.blade.php
+    return view('travelroad'); // carga index.blade.php
 })->name('places.index');
 
 Route::get('/visited', function () {

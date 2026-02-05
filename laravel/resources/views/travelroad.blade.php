@@ -6,7 +6,9 @@
 </head>
 <body>
 
-    <h1>My Travel Bucket List</h1>
+    <h1>My Travel Bucket List 2.1</h1>
+        	<p><a href="{{ route('places.wished') }}">Deseados</a></p>
+        	<p><a href="{{ route('places.visited') }}">Visitados</a></p>
 
     @yield('content') 
 
