@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    <h1>My Travel Bucket List 👀</h1>
+    <h1>My Travel Bucket List</h1>
 
     @yield('content') 
 
